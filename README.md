@@ -70,4 +70,4 @@ Import the config and provide the correct values and settings to connect to the 
 The official HelloID documentation can be found at: https://docs.helloid.com/
 
 ## Forum Thread
-The Forum thread for any questions or remarks regarding this connector can be found at: [HelloID-Conn-Prov-Target-Powershell-Exchange-RemoteMailbox]()
+The Forum thread for any questions or remarks regarding this connector can be found at: [HelloID-Conn-Prov-Target-Powershell-Exchange-RemoteMailbox](https://forum.helloid.com/forum/helloid-connectors/provisioning/749-helloid-prov-target-exchange-remote-mailbox)
