@@ -1,0 +1,109 @@
+[
+    {
+        "key": "exchange.url",
+        "type": "input",
+        "defaultValue": "",
+        "templateOptions": {
+            "label": "URL",
+            "placeholder": "Please enter exchange url",
+            "required": true
+        }
+    },
+    {
+        "key": "exchange.username",
+        "type": "input",
+        "defaultValue": "",
+        "templateOptions": {
+            "label": "Please enter exchange user",
+            "placeholder": "Please enter some text",
+            "required": true
+        }
+    },
+    {
+        "key": "exchange.password",
+        "type": "input",
+        "defaultValue": "",
+        "templateOptions": {
+            "label": "Example password",
+            "type": "password",
+            "placeholder": "Please enter a password",
+            "required": true
+        }
+    },
+    {
+        "key": "exchange.authenticationmode",
+        "type": "select",
+        "templateOptions": {
+            "label": "AUTHENTICATION MODE",
+            "placeholder": "Please select an option",
+            "options": [
+                {
+                    "value": "Default",
+                    "label": "Default"
+                },
+                {
+                    "value": "Basic",
+                    "label": "Basic"
+                },
+                {
+                    "value": "Credssp",
+                    "label": "Credssp"
+                },
+                {
+                    "value": "Digest",
+                    "label": "Digest"
+                },
+                {
+                    "value": "Kerberos",
+                    "label": "Kerberos"
+                },
+                {
+                    "value": "Negotiate",
+                    "label": "Negotiate"
+                },
+                {
+                    "value": "NegotiateWithImplicitCredential",
+                    "label": "NegotiateWithImplicitCredential"
+                }
+            ]
+        }
+    },
+    {
+        "key": "exchange.remoteroutingaddress",
+        "type": "input",
+        "defaultValue": "",
+        "templateOptions": {
+            "label": "REMOTE ROUTING ADDRESS DOMAIN",
+            "type": "email",
+            "placeholder": "domain.mail.onmicrosoft.com",
+            "required": false
+        }
+    },
+    {
+        "key": "exchange.skipcacheck",
+        "type": "checkbox",
+        "defaultValue": false,
+        "templateOptions": {
+            "label": "Skip CA check",
+            "required": false
+        }
+    },
+    {
+        "key": "exchange.skipcncheck",
+        "type": "checkbox",
+        "defaultValue": false,
+        "templateOptions": {
+            "label": "Skip CN check",
+            "required": false
+        }
+    },
+    {
+        "key": "exchange.skiprevocationcheck",
+        "type": "checkbox",
+        "defaultValue": false,
+        "templateOptions": {
+            "label": "Skip revocation check",
+            "required": false
+        }
+    }
+]
