@@ -7,6 +7,12 @@ Powershell connector to create, enable(unhide) or disable(hide) through a hybrid
 
 <br />
 
+| :warning: Warning |
+|:---------------------------|
+| Be aware that Exchange can't handle too many powershell sessions at once. Keep the number of concurrent actions limited.      |
+
+<br />
+
 <p align="center">
   <img src="assets/logo.png" width="400">
 </p>
